@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  
+spring:
+  banner:    charset: UTF-8  kafka:    bootstrap-servers:    - localhost:9092
+    consumer:
+      bootstrap-servers: localhost:9092      enable-auto-commit: true
+      auto-commit-interval: 100
+    producer:
+      bootstrap-servers: localhost:9092      retries: 1
+#    admin:#      client-id: 

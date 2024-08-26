@@ -26,7 +26,7 @@
 		<mybatis-plus.version>3.2.0</mybatis-plus.version>
 		<jasypt.version>2.1.2</jasypt.version>
 		<jython.version>2.7.2b2</jython.version>
-		<swagger.version>2.9.2</swagger.version>
+		<swagger.version>2.10.0</swagger.version>
 		<druid.version>1.1.21</druid.version>
 	</properties>
 
